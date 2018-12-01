@@ -104,7 +104,17 @@ public class Main {
 			case 10:
 				//Shift array
 				ShiftArray obj = new ShiftArray();
-				obj.ShiftArray(int_arr);
+				obj.ShiftArray(int_arr, char_arr);
+				System.out.print("The integer array after shift: ");
+				for( int i = 0; i < int_arr.length; i++ ){
+					System.out.print(int_arr[i]+" ");
+				}
+				System.out.print("\nThe charcter array after shift: ");
+				for( int i = 0; i < char_arr.length; i++ ){
+					System.out.print(char_arr[i]+" ");
+				}
+				System.out.println();
+
 				break;
 			case 11:
 				//Distinct array
