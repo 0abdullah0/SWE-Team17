@@ -79,9 +79,8 @@ public class Main {
 				//please try not to exceed two when calling your class
 				break;
 			case 6:
-				//Check palindrome
-				//please call both the integer and char array
-				//please try not to exceed two when calling your class
+				Checkpalindrome r=new Checkpalindrome();
+				r.Checkpalindrome(char_arr);
 				break;
 			case 7:
 				Checksorted ob7 = new Checksorted();
