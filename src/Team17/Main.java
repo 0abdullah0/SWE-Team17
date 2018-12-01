@@ -103,8 +103,8 @@ public class Main {
 				break;
 			case 10:
 				//Shift array
-				//please call both the integer and char array
-				//please try not to exceed two when calling your class
+				ShiftArray obj = new ShiftArray();
+				obj.ShiftArray(int_arr);
 				break;
 			case 11:
 				//Distinct array
