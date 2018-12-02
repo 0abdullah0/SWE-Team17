@@ -105,15 +105,7 @@ public class Main {
 				//Shift array
 				ShiftArray obj = new ShiftArray();
 				obj.ShiftArray(int_arr, char_arr);
-				System.out.print("The integer array after shift: ");
-				for( int i = 0; i < int_arr.length; i++ ){
-					System.out.print(int_arr[i]+" ");
-				}
-				System.out.print("\nThe charcter array after shift: ");
-				for( int i = 0; i < char_arr.length; i++ ){
-					System.out.print(char_arr[i]+" ");
-				}
-				System.out.println();
+				printIntArray(int_arr, char_arr);
 
 				break;
 			case 11:
