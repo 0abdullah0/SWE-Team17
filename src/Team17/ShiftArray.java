@@ -17,5 +17,18 @@ public class ShiftArray {
         arr[arr.length-1] = tmp;
         arrC[arr.length-1] = tmpC;
     }
+    public void printIntArray(int []arr, char []arrC)
+    {
+        System.out.print("The integer array after shift: ");
+        for( int i = 0; i < int_arr.length; i++ ){
+            System.out.print(int_arr[i]+" ");
+        }
+        System.out.print("\nThe charcter array after shift: ");
+        for( int i = 0; i < char_arr.length; i++ ){
+            System.out.print(char_arr[i]+" ");
+        }
+        System.out.println();
+    }
+    
     
 }
