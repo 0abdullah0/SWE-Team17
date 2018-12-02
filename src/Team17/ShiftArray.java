@@ -19,6 +19,7 @@ public class ShiftArray {
     public void ShiftArray(int []arr)
     {
         int tmp = arr[0];
+        int tmpC = arr[0];
         for (int i = 0; i < arr.length-1; i++)
         {
             arr[i] = arr[i+1];
