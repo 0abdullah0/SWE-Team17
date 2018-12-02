@@ -36,8 +36,6 @@ public class ShiftArray {
         {
             System.out.print(arrC[i]+" ");
         }
-        System.out.println();
-   
     }
     
 }
