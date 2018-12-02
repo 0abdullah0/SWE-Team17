@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package github_project;
+package Team17;
 
 /**
  *
@@ -16,9 +16,10 @@ package github_project;
  * @author Youssef Khaled
  */
 public class ShiftArray {
-    public void ShiftArray(int []arr)
+    public void ShiftArray(int []arr,char []arrC)
     {
         int tmp = arr[0];
+        char tmpC = arrC[0];
         for (int i = 0; i < arr.length-1; i++)
         {
             arr[i] = arr[i+1];
