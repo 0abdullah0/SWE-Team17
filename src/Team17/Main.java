@@ -104,7 +104,7 @@ public class Main {
 			case 10:
 				//Shift array
 				ShiftArray obj = new ShiftArray();
-				obj.ShiftArray(int_arr);
+				obj.ShiftArray(int_arr, char_arr);
 				break;
 			case 11:
 				//Distinct array
