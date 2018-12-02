@@ -98,8 +98,9 @@ public class Main {
 			}
 				break;
 			case 9:
-				//Reverse array
-				//please try not to exceed two when calling your class
+				revers_arr x=new revers_arr();
+				x.reversint(int_arr);
+				x.reverschar(char_arr);
 				break;
 			case 10:
 				//Shift array
