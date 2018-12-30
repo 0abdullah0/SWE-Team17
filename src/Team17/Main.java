@@ -63,8 +63,7 @@ public class Main {
 			        m. most_repeated( int_arr, int_arr.length);
 				break;
 			case 2:
-				//Sort
-				//please try not to exceed two when calling your class
+				bubble_srt(int_arr);
 				break;
 			case 3:
 				ShuffleCLASS Obj=new ShuffleCLASS();
